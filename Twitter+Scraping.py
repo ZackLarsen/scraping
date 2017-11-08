@@ -47,10 +47,10 @@ get_ipython().system('ls')
 
 # Define keys for the tweepy44! app
 
-consumer_key = 'h7MMaR1HikFz7rvbMCXV2GKcf'
-consumer_secret = '3OIF2JcysYNdr0r6X8HKyg3YrzJnupCvwOcZPKhpE5qnMK0FfS'
-access_token = '851422843-O9EDAr6JGQ2gPNObQLHlaE8fS9h3Gyi23YRUE5Yz'
-access_secret = 'hV6HO69tSzICzNGgxXwItIpn7PIr8ETgG875MCy0k8ndn'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
@@ -127,10 +127,10 @@ from sqlalchemy.exc import ProgrammingError
 
 # Your credentials go here
 
-consumer_key = 'h7MMaR1HikFz7rvbMCXV2GKcf'
-consumer_secret = '3OIF2JcysYNdr0r6X8HKyg3YrzJnupCvwOcZPKhpE5qnMK0FfS'
-access_token = '851422843-O9EDAr6JGQ2gPNObQLHlaE8fS9h3Gyi23YRUE5Yz'
-access_token_secret = 'hV6HO69tSzICzNGgxXwItIpn7PIr8ETgG875MCy0k8ndn'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 class StdOutListener(StreamListener):
     """ A listener handles tweets that are received from the stream.
@@ -176,10 +176,10 @@ from tweepy import Stream
 from sqlalchemy.exc import ProgrammingError
 
 # Your credentials go here
-consumer_key = 'h7MMaR1HikFz7rvbMCXV2GKcf'
-consumer_secret = '3OIF2JcysYNdr0r6X8HKyg3YrzJnupCvwOcZPKhpE5qnMK0FfS'
-access_token = '851422843-O9EDAr6JGQ2gPNObQLHlaE8fS9h3Gyi23YRUE5Yz'
-access_token_secret = 'hV6HO69tSzICzNGgxXwItIpn7PIr8ETgG875MCy0k8ndn'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 
